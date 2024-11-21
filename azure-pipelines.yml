@@ -9,7 +9,7 @@ steps:
 - script: |
 
     npm install
-    vue-cli-service build
+    npm run build
   displayName: "Build"
 
 
