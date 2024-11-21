@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool: "Mac"
+
+
+steps:
+
+- script: |
+
+    npm i --save
+    vue-cli-service build
+  displayName: "Build"
+
+
+
+
+
