@@ -17,13 +17,15 @@ steps:
     SonarQube: 'SonarCloud'
     organization: 'tolgahanakca'
     scannerMode: 'dotnet'
-    dotnetScannerVersion: 'tolgahanakca'
     projectKey: '8346dd878d3338f208ee181f58dff50efe5c7bae'
-    projectName: 'probuddy'
+    projectName: 'tolgahanakca_probuddy'
 
 - task: SonarCloudAnalyze@3
   inputs:
     jdkversion: 'JAVA_HOME_17_X64'
+
+
+
 
   
 
